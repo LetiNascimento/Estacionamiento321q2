@@ -82,12 +82,12 @@ public class Vehiculo
         {
             return patente.equals(otroVehiculo.patente)
                     && modelo == otroVehiculo.modelo;
-        }
+        }code:
         return false;
     }
     
     @Override
-    public int hashcode()
+    public int hashCode()
     {
         return Objects.hash(patente,modelo);
     }

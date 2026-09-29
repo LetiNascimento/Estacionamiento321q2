@@ -55,4 +55,11 @@ public class Moto extends Vehiculo
         }
         return ablando;
     }
+    
+    public void colgar(){
+        System.out.println("Moto haciendo Willy");
+         
+    }
+    
+    
 }
